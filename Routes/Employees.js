@@ -32,7 +32,7 @@ const sendEmail = async (email, subject, password, privateKey, address) => {
         <p>${privateKey}</p>
         <p>Address:</p>
         <p>${address}</p>
-        <p>Visit <a href="http://localhost:5173/reporter">google.com</a> for more information.</p>
+        <p>Visit <a href="${process.env.LINK}">google.com</a> for more information.</p>
       `,
     };
 
