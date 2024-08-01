@@ -87,7 +87,7 @@ router.post("/", async (req, res) => {
     res.status(500).send({ message: "Internal Server Error" });
   }
 });
-
+// This is to check github proj
 router.get("/", async (req, res) => {
   try {
     //console.log(req);
